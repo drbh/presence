@@ -1,8 +1,8 @@
 /target
 *.bin
+*.so
 
 __pycache__/
 .venv/
 target/
-bindings
 bak

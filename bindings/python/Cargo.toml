@@ -1,0 +1,12 @@
+[package]
+name = "presence-py"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "presence_pyo3"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.22", features = ["abi3", "abi3-py38"] }
+presence = { path = "../../presence" }
