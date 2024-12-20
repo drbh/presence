@@ -1,6 +1,6 @@
 # presence
 
-A thread-safe library for efficient temporal presence tracking at microsecond resolution.
+A thread-safe library for efficient temporal presence tracking at 30fps frame resolution.
 
 ## Python Usage
 
